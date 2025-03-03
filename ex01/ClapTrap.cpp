@@ -6,7 +6,7 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/19 16:09:24 by agilles           #+#    #+#             */
-/*   Updated: 2025/02/21 16:47:53 by agilles          ###   ########.fr       */
+/*   Updated: 2025/02/26 15:48:32 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ ClapTrap::ClapTrap(std::string name): _health(10), _energy(10), _dps(0)
 
 ClapTrap::~ClapTrap()
 {
-	std::cout << "ClapTrap named :" << this->_name << " has been destroy" << std::endl;
+	std::cout << "ClapTrap named : " << this->_name << " has been destroy" << std::endl;
 }
 
 ClapTrap &ClapTrap::operator=(const ClapTrap &cp)
