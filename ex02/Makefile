@@ -1,8 +1,9 @@
 CC = c++ -Wall -Wextra -Werror -std=c++98
-NAME = ScavTrap
+NAME = FragTrap
 SRC =	main.cpp\
 		ClapTrap.cpp\
-		ScavTrap.cpp
+		ScavTrap.cpp\
+		FragTrap.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
